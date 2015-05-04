@@ -4,6 +4,7 @@
 [![Node Version][node-version-image]][node-url]
 
 Webring calculation module for [node](http://nodejs.org).
+less dependencies = more stability
 
 ## Installation
 
