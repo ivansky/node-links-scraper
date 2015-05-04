@@ -13,7 +13,19 @@ $ npm install webring
 
 ## Example
 ```js
-var webring = require('webring');
+var webring = require('./lib/webring');
+
+var linker = webring.create('http://www.domain.com/');
+
+linker.on('fetch', function(context){
+
+});
+
+linker.on('done', function(){ // or .ondone(callback)
+
+});
+
+linker.start();
 ```
 
 ## License
