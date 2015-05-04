@@ -1,12 +1,12 @@
 {
-  "name": "links-scraper",
-  "description": "Links Scraper contains Local weight calculations",
-  "version": "0.1.0",
+  "name": "webring",
+  "description": "Webring calculation library",
+  "version": "0.0.1",
   "author": "Ivan Martianov <i@ivansky.ru>",
   "contributors": [],
   "license": "MIT",
-  "repository": "ivansky/node-links-scraper",
-  "homepage": "http://ivansky.ru/nodejs/links-scraper",
+  "repository": "ivansky/node-webring",
+  "homepage": "http://ivansky.ru/nodejs/webring",
   "keywords": [
     "links",
     "sitemap",
@@ -14,7 +14,7 @@
     "weight"
   ],
   "dependencies": {
-    "request": "^2.55.1"
+    "request": "^2.55.0"
   },
   "devDependencies": {},
   "engines": {

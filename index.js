@@ -1,1 +1,1 @@
-module.exports = require('./lib/links-scraper');
+module.exports = require('./lib/webring');
