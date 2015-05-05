@@ -44,6 +44,10 @@ linker.on('done', function(){ // or .ondone(callback)
 linker.start();
 ```
 
+## Dependencies
+* iconv-lite
+* request
+
 ## License
 
 [MIT](LICENSE)
