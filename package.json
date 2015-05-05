@@ -6,7 +6,8 @@
   "contributors": [],
   "license": "MIT",
   "repository": "ivansky/node-webring",
-  "homepage": "http://ivansky.ru/nodejs/webring",
+  "homepage": "https://github.com/ivansky/node-webring",
+  "bugs": "https://github.com/ivansky/node-webring/issues",
   "keywords": [
     "links",
     "sitemap",
@@ -14,9 +15,12 @@
     "weight"
   ],
   "dependencies": {
+    "iconv-lite": "^0.4.8",
     "request": "^2.55.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -26,5 +30,7 @@
     "index.js",
     "lib/"
   ],
-  "scripts": {}
+  "scripts": {
+    "test": "mocha --reporter spec --grep ."
+  }
 }

@@ -4,6 +4,7 @@
 [![Node Version][node-version-image]][node-url]
 
 Webring calculation module for [node](http://nodejs.org).
+
 less dependencies = more stability
 
 ## Installation
@@ -31,7 +32,7 @@ linker.start();
 
 ## License
 
-  [MIT](LICENSE)
+[MIT](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/webring.svg
 [npm-url]: https://npmjs.org/package/webring
