@@ -14,7 +14,7 @@ $ npm install webring
 
 ## Example
 ```js
-var webring = require('./lib/webring');
+var webring = require('webring');
 
 var linker = webring.create('http://www.domain.com/');
 

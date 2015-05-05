@@ -1,1 +1,1 @@
-module.exports = require('./lib/webring');
+exports = module.exports = require('./lib/webring');
