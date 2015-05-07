@@ -1,7 +1,7 @@
 ## Webring
 [![NPM Version][npm-image]][npm-url][![Node Version][node-version-image]][node-url][![Build Status][travis-image]][travis-url]
 
-Webring calculation module for [node](http://nodejs.org).
+Webring calculation module for [node][node-url].
 
 less dependencies = more stability
 
