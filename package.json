@@ -1,7 +1,7 @@
 {
   "name": "webring",
   "description": "Webring calculation library",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Ivan Martianov <i@ivansky.ru>",
   "contributors": [],
   "license": "MIT",
