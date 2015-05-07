@@ -1,6 +1,5 @@
 ## Webring
-[![NPM Version][npm-image]][npm-url]
-[![Node Version][node-version-image]][node-url]
+[![NPM Version][npm-image]][npm-url][![Node Version][node-version-image]][node-url][![Build Status][travis-image]][travis-url]
 
 Webring calculation module for [node](http://nodejs.org).
 
@@ -53,7 +52,9 @@ linker.start();
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/webring.svg
+[npm-image]: https://img.shields.io/npm/v/webring.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/webring
 [node-url]: https://nodejs.org/
-[node-version-image]: https://img.shields.io/node/v/webring.svg
+[node-version-image]: https://img.shields.io/node/v/webring.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/ivansky/node-webring.svg?style=flat-square
+[travis-url]: https://travis-ci.org/ivansky/node-webring
