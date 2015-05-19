@@ -1,7 +1,7 @@
 var assert = require('assert'),
 	webring = require(__dirname + '/../');
 
-var FindLinks = webring.FindLinks;
+var findLinks = webring.findLinks;
 var sortObjectByKeys = webring.sortObjectByKeys;
 
 var testFindLinksHTML = "<html>" +
@@ -73,7 +73,7 @@ describe("Generic main tests", function() {
 
 	it("Find Links", function(){
 
-		var result = FindLinks(testFindLinksHTML);
+		var result = findLinks(testFindLinksHTML);
 
 		assert.deepEqual(result, testFindLinksResult);
 
